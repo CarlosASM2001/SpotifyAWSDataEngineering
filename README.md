@@ -11,7 +11,7 @@ The pipeline follows a modern **Data Lake architecture**, using fully managed (s
 
 ## Architecture
 
-![Architecture](Resources/Project Data Engineering Begginer.png)
+![Architecture](Resources/Project-Data-Engineering-Begginer.png)
 
 ### Pipeline Flow
 
@@ -87,7 +87,7 @@ Transform datasets (joins, cleaning, normalization)
 * Join result with Tracks
 * Drop unnecessary fields
 
-![ArchitectureETL](Resources/Screenshot 2026-04-24 115446.png)
+![ArchitectureETL](Resources/Pipeline-etl.png)
 
 ### Glue IAM Role
 The following role was created for Glue:
