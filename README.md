@@ -135,6 +135,33 @@ QuickSight is used for:
 * Amazon QuickSight
 * IAM (Access Control)
 
+---
+
+## Results QuickSight
+
+This visualization shows the distribution of follower counts across different user names, highlighting the lower segment (bottom 2,500 by name). It helps identify outliers and skewness in follower engagement.
+
+Key Insights
+* Most users have a relatively low follower count, indicating a long-tail distribution.
+* A few significant spikes suggest high-influence users or anomalies in the dataset.
+* Useful for downstream tasks such as segmentation, anomaly detection, or ranking models.
+
+
+![FirtsChart](Resources/first-chart.png)
+
+
+### 1. Popularity vs Followers (Scatter Plot)
+
+Question: Do more followers = more popular tracks?
+
+![SecondChart](Resources/second-chart.png)
+
+### 2. Track Duration vs Popularity
+
+Question: Are shorter songs more popular?
+
+![ThirdChart](Resources/third-chart.png)
+
 
 
 _This project is part of my journey into Data Engineering and Cloud Analytics._
